@@ -174,10 +174,6 @@ Display
      - Display elapsed time between lines
    * - :kbd:`t`
      - Switch to/from the text file view
-   * - :kbd:`i`
-     - Switch to/from the histogram view
-   * - :kbd:`Shift` + :kbd:`i`
-     - Switch to/from the histogram view
    * - :kbd:`v`
      - Switch to/from the SQL result view
    * - :kbd:`Shift` + :kbd:`v`
@@ -204,6 +200,24 @@ Display
        replaced with three bullets and highlighted in yellow.
    * - :kbd:`=`
      - Pause/unpause loading of new file data.
+     
+Histogram
+---------
+
+.. list-table::
+   :header-rows: 1
+   :widths: 5 20
+   
+   * - Keypress
+     - Command   
+   * - :kbd:`i`
+     - Switch to/from the histogram view
+   * - :kbd:`Shift` + :kbd:`i`
+     - Switch to/from the histogram view but jump to timestamp of log line at top of screen
+   * - :kbd:`z`
+     - Zoom in temporially (each line covers smaller breadth of time) when in Histogram view
+   * - :kbd:`Shift` + :kbd:`z`
+     - Zoom out temporially (each line covers more time) when in Histogram view
 
 Session
 -------
